@@ -1,13 +1,31 @@
+#mission-2022{
+    color: tomato;
+}
 body{
-    font-family: 'Poppins', sans-serif;
-}
-h1{
-    color: blue;
-}
-p{
-    color: red;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 50px 100px;
 }
 #border-practise{
-    border: green solid 20px;
-    padding: 10px 50px;
+    border-left:solid 10px;
+    border-image:linear-gradient(rgb(252, 206, 122), rgb(255, 151, 132));
+    border-image-slice:1;
+    padding:0px 10px;
+    margin-right:50px;
+}
+#img-1{
+    width: 100%;
+    margin: 20px 10px;
+}
+.next-dis{
+    display: flex;
+    font-size: x-large;
+}
+#explore{
+    background-image: linear-gradient(rgb(238, 171, 46), rgb(248, 50, 15));
+    margin-right: 80%;
+    padding: 6px;
+    border-radius: 5px;
+}
+#first-texts{
+    margin-right: 20%;
 }
